@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo1"
+
+    tools:context="com.android.alejandro.ej12.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f20404"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="ROJO"
+        android:textColor="#000"
+
+        android:textSize="10sp" />
+    <TextView
+        android:text="NARANJA"
+        android:id="@+id/TextViewOrange"
+        android:layout_height="wrap_content"
+        android:background="#be6403"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="25dp"
+        android:textSize="10sp" />
+
+    <TextView
+        android:text="AMARILLO"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="#a8e905"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextViewYellow"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="25dp"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:text="VERDE"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="#1ec90b"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/textViewGreen"
+        android:layout_width="wrap_content"
+        android:layout_toLeftOf="@+id/TextViewBlue"
+        android:padding="25dp"
+        android:layout_centerVertical="true"
+        android:textSize="10sp" />
+
+    <TextView
+        android:text="AZUL"
+        android:alpha="0.8"
+        android:layout_height="wrap_content"
+        android:background="#233ff2"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/TextViewBlue"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:padding="25dp"
+        android:textSize="10sp" />
+
+    <TextView
+        android:text="VIOLETA"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:alpha="0.8"
+        android:textColor="#fff"
+        android:id="@+id/TextViewViolet"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/TextViewBlue"
+        android:background="#6f05be"
+        android:padding="25dp"
+        android:layout_centerVertical="true"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:text="ROSA"
+        android:id="@+id/textViewPink"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:background="#f208df"
+        android:padding="20dp"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_gravity="bottom" />
+
+</RelativeLayout>
+
